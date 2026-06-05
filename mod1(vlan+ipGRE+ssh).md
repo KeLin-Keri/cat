@@ -1,3 +1,16 @@
+ISP
+- iptables
+RTR
+- sudo
+- openvswitch(hq)
+- dhcp-server(hq)
+- frr
+- iptables 
+SRV
+- openssh-server
+- bind bind-utils(hq)
+- sudo
+  
 HQ-RTR
 /etc/net/ifaces/br0/options
 TYPE=ovsbr
